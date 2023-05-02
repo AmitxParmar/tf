@@ -1,11 +1,12 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import LandingPage from "@/components/LandingPage";
 import Achievements from "@/components/Achievement";
 import Features from "@/components/Features";
 import SneakPeek from "@/components/SneakPeek";
-import Head from "next/head";
 import Interest from "@/components/Interest";
+import Review from "@/components/Review";
+import Suggestion from "@/components/Suggestion";
+import FAQs from "@/components/FAQ";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,8 @@ export default function Home() {
   return (
     <>
 
-      <div className="scale-100  m-auto text-white h-screen snap-y snap-mandatory overflow-scroll z-0  scrollbar-track-gray-400/20 object-fit scrollbar-thumb-coffee/80 overflow-x-hidden scrollbar-thin">
+      <div className={`scale-100  m-auto text-white h-screen snap-y snap-mandatory overflow-scroll z-0  scrollbar-track-gray-400/20 object-fit scrollbar-thumb-coffee/80 overflow-x-hidden scrollbar-thin ${inter.className}`}>
+
         <section className="bg-[#F4F8FA]">
           <LandingPage />
         </section>
@@ -29,11 +31,17 @@ export default function Home() {
         <section className="bg-[rgba(254,247,248,0.6)]">
           <Interest />
         </section>
+        <section className="bg-[#FFFFFF]">
+          <Suggestion />
+        </section>
         <section className="bg-[#E8F5F4]">
-
+          <Review />
+        </section>
+        <section className="bg-[#FFFFFF]">
+          <FAQs />
         </section>
 
       </div>
-    </ >
+    </>
   );
 }

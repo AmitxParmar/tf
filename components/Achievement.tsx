@@ -6,16 +6,16 @@ const Achievements = (props: Props) => {
 
 
     return (
-        <div className='md:m-auto md:py-[104px] md:max-w-[700px] w-full text-center flex flex-col mobile:my-[100px] justify-center items-center'>
+        <div className='md:m-auto md:py-[104px] w-[700px] text-center flex flex-col mobile:my-[100px] justify-center items-center'>
 
             {/* Headline */}
-            <div className="font-bold leading-[39px] w-full font-fr break-words text-center h-full text-black mobile:text-[30px] xs:text-2xl mobile:px-7 mobile:mb-[52px] md:mb-[52px]">
+            <div className="font-bold w-[675px] h-[39px] leading-[39px] font-fr text-center md:text-[2rem] tracking-[-0.04em] text-black mobile:text-[30px] xs:text-[1.5rem] mobile:mb-[52px] min-w-[768px] md:mb-[52px]">
                 What’s more, we’re just getting started. Are you?
             </div>
 
             {/* About */}
             <div className='mb-[52px] max-w-[686px] border border-[#D7D7D7]'>
-                <p className='text-text p-6 leading-5 w-full'>In the past two months
+                <p className='text-text text-[18px] p-6 tracking-[-0.015em] leading-[2rem] w-full'>In the past two months
                     <span className='text-texthighlight font-medium'>
                         {" "}24 teenagers{" "}
                     </span>have cofounded
@@ -31,7 +31,7 @@ const Achievements = (props: Props) => {
             </div>
 
             {/* Achievement */}
-            <div className='grid lg:grid-cols-3 gap-5 lg:grid-rows-none xs:grid-rows-3 xs:grid-cols-none'>
+            <div className='grid lg:grid-cols-3 gap-5 lg:grid-rows-none xs:grid-rows-3 xs:grid-cols-none text-[18px] p-6 tracking-[-0.015em] leading-[2rem]'>
                 <div className=''>
                     <span className='font-fr font-bold leading-[118px] text-[96px] text-orange'>24</span>
                     <p className='text-text break-words'>
@@ -40,11 +40,11 @@ const Achievements = (props: Props) => {
                     </p>
                 </div>
                 <div className=''>
-                    <span className='font-fr font-bold leading-[118px] text-[96px] text-orange'>10</span>
+                    <span className='font-fr font-bold leading-[7.37rem] text-[96px] text-orange'>10</span>
                     <p className='text-text'>startups</p>
                 </div>
                 <div className=''>
-                    <span className='font-fr font-bold leading-[118px] text-[96px] text-orange'>$5M</span>
+                    <span className='font-fr font-bold leading-[7.37rem] text-[96px] text-orange'>$5M</span>
                     <p className='text-text'>collective portfolio value</p>
                 </div>
             </div>

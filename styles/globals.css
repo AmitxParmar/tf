@@ -8,12 +8,3 @@ img {
     object-fit: contain;
     width: 100%;
 }
-
-div {
-    border: black solid 1px;
-}
-
-p {
-    border: 1px solid red;
-
-}

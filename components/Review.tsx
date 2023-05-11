@@ -7,7 +7,7 @@ const Review = (props: Props) => {
         <div className='min-h-[650px] min-w-screen pt-[76px]'>
             {/* _Heading_ */}
             <div className='mx-auto mb-[58px]'>
-                <h3 className='text-texthighlight mx-auto text-[2.25rem] font-fr tracking-[-0.04em] text-center font-semibold'>
+                <h3 className='text-textHighlight mx-auto text-[2.25rem] font-fr tracking-[-0.04em] text-center font-semibold'>
                     What our teenpreneurs have to say
                 </h3>
             </div>

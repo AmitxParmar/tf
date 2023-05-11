@@ -10,7 +10,7 @@ const Suggestions = (props: Props) => {
             <div className='mx-[100px] flex flex-row justify-center scale-y-100'>
                 {suggestion.map((item, index) => (
                     <div key={index} className='max-w-[520px] min-w-[500px] rounded-[1.25rem] my-auto mr-[65px] border border-[#D7D7D7] min-h-[200px]'>
-                        <p className='text-[1.5rem] my-[4rem] mx-[3rem] font-fr min-w-[402] text-texthighlight leading-[30px]'>
+                        <p className='text-[1.5rem] my-[4rem] mx-[3rem] font-fr min-w-[402] text-textHighlight leading-[30px]'>
                             {item}
                         </p>
                     </div>

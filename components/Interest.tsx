@@ -5,7 +5,7 @@ type Props = {}
 const Interest = (props: Props) => {
     return (
         <div className='h-full flex flex-col mobile:gap-5 text-black text-center w-full py-[5.3rem] mx-auto'>
-            <h3 className="w-fit md:mb-12 mx-auto font-fr font-semibold text-4xl align-center text-texthighlight">
+            <h3 className="w-fit md:mb-12 mx-auto font-fr font-semibold text-4xl align-center text-textHighlight">
                 Areas of interest
             </h3>
             <p className='capitalize m-auto max-w-[760px] text-[1.12rem] tracking-[-0.015em] leading-[2rem] relative text-text'>

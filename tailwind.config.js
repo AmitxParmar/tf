@@ -14,11 +14,14 @@ module.exports = {
       fontFamily: {
         "fr": ['Fraunces', 'serif']
       },
+      fontSize: {
+        default: "1.12rem",
+      },
       colors: {
         sneakpeek: "#2A303B",
         featuredbg: "rgba(254, 243, 234, 0.5)",
         coffee: "#110011",
-        texthighlight: "#2B343F",
+        textHighlight: "#2B343F",
         text: "#535D6B",
         programs: "#FEF3EA",
         interests: "#FEF7F8",
